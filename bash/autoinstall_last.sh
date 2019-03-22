@@ -24,6 +24,9 @@ apt install -f
 apt-get update
 apt-get upgrade
 
+mkdir /home/pumba/unrar && chmod 777 /home/pumba/unrar
+mkdir /home/pumba/scripts && chmod 777 /home/pumba/scripts
+
 #SAMBA
 echo "##########Samba-install##########"
 read -p "Press any key to continue..."
